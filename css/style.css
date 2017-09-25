@@ -3,8 +3,7 @@ html, body {
     height: 100%;
     background-size:cover;
 }
-.intro {
-  font-weight:300;
+.container .intro {
   text-transform:uppercase;
   white-space:nowrap;
   position:absolute;
@@ -13,6 +12,22 @@ html, body {
   transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
   display:inline-block;
+}
+#ComingSoon{
+  font-weight:300;
+  font-size:4.2vw;
   color:#F7CA3F;
-  font-size:4.5vw;
+}
+#icons .fa {
+    color: #FFF;
+    margin:15px;
+}
+#icons .twitter:hover {
+    color:#6CADDE;
+}
+#icons .facebook:hover {
+    color:#3B5998;
+}
+#icons .instagram:hover {
+    color:#517fA6;
 }
