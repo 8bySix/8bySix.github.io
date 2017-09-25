@@ -1,0 +1,37 @@
+html, body {
+    background: #242424 center center no-repeat;
+    height: 100%;
+    background-size:cover;
+}
+#privacy {
+  font-size: 1.3em;
+  font-family: 'Source Sans Pro';
+  color: #F7CA3F;
+  font-weight: bold;
+}
+#timestamp {
+  font-size: 0.8em;
+  font-family: 'Source Sans Pro';
+  color: #9B9B9B;
+}
+#title {
+  font-size: 1.1em;
+  font-family: 'Source Sans Pro';
+  color: #FFF;
+  font-weight: bold;
+}
+#content {
+  font-size: 0.8em;
+  font-family: 'Source Sans Pro';
+  color: #FFF;
+}
+#email {
+  font-size: 0.8em;
+  font-family: 'Source Sans Pro';
+  color: #242424;
+}
+li {
+  font-size: 0.8em;
+  font-family: 'Source Sans Pro';
+  color: #FFF;
+}
