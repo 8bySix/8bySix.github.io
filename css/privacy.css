@@ -4,34 +4,37 @@ html, body {
     background-size:cover;
 }
 #privacy {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-family: 'Source Sans Pro';
   color: #F7CA3F;
   font-weight: bold;
 }
 #timestamp {
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-family: 'Source Sans Pro';
   color: #9B9B9B;
 }
 #title {
-  font-size: 1.1em;
+  font-size: 1.0em;
   font-family: 'Source Sans Pro';
   color: #FFF;
   font-weight: bold;
 }
 #content {
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-family: 'Source Sans Pro';
   color: #FFF;
+  font-weight: 100;
 }
 #email {
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-family: 'Source Sans Pro';
   color: #242424;
+  font-weight: 100;
 }
 li {
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-family: 'Source Sans Pro';
   color: #FFF;
+  font-weight: 100;
 }
