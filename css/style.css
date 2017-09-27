@@ -3,31 +3,53 @@ html, body {
     height: 100%;
     background-size:cover;
 }
-.container .intro {
-  text-transform:uppercase;
-  white-space:nowrap;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  -webkit-transform:translate(-50%,-50%);
-  display:inline-block;
+.container > div {
+  display: inline;
 }
-#ComingSoon{
-  font-weight:300;
-  font-size:4.2vw;
-  color:#F7CA3F;
+.container img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+#count{
+  font-size: 1.9em;
+  font-family: 'Source Sans Pro';
+  color: #F7CA3F;
+}
+#title{
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro';
+  color: #FFF;
+}
+#sub_title{
+  margin-top: 30px;
+  color: #FFF;
+  font-family: 'Source Sans Pro';
+  font-size: 3.4em;
+}
+#body{
+  color: #FFF;
+  font-family: 'Source Sans Pro';
+  font-size: 1.3em;
 }
 #icons .fa {
-    color: #FFF;
+    color:white;
     margin:15px;
+    position:relative;
+    transition:all 0.2s ease-in-out;
+}
+#icons .email:hover {
+    color:#6CADDE;
+    bottom:5px;
 }
 #icons .twitter:hover {
     color:#6CADDE;
+    bottom:5px;
 }
 #icons .facebook:hover {
     color:#3B5998;
+    bottom:5px;
 }
 #icons .instagram:hover {
-    color:#517fA6;
+    color:#517FA6;
+    bottom:5px;
 }
