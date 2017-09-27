@@ -1,0 +1,31 @@
+html, body {
+    background: #242424;
+    height: 100%;
+    background-size:cover;
+}
+/* smartphones */
+@media (min-width:320px)  {
+  #team{
+    max-height: 90%;
+  }
+  #aboot {
+    text-align: center;
+    max-width: 95%;
+    font-size: 0.8em;
+    font-family: 'Roboto Slab';
+    color: #FFF;
+  }
+}
+/* laptop/desktop */
+@media (min-width:961px) {
+  #team{
+    max-height: 75%;
+  }
+  #aboot {
+    text-align: center;
+    max-width: 75%;
+    font-size: 1.0em;
+    font-family: 'Roboto Slab';
+    color: #FFF;
+  }
+}
