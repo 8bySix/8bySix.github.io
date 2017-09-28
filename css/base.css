@@ -1,0 +1,51 @@
+html, body {
+    background: #242424 center center no-repeat;
+    height: 100%;
+    background-size:cover;
+}
+
+/* smartphones */
+@media (min-width:320px)  {
+  .sidebar-nav .navbar .navbar-collapse {
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    margin-top: 30px;
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 1.3em;
+  }
+}
+
+/* laptop/desktop */
+@media (min-width:961px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    margin-top: 30px;
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 1.3em;
+    text-decoration: none;
+  }
+  .sidebar-nav .navbar li a:hover {
+    color: #F7CA3F;
+  }
+}

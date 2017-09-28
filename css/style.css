@@ -1,35 +1,44 @@
-html, body {
-    background: #242424 center center no-repeat;
-    height: 100%;
-    background-size:cover;
+@media (min-width:320px)  {
+  .container img {
+    max-width: 75%;
+    vertical-align: middle;
+  }
+  #title{
+    margin-top: 30px;
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 2.7em;
+  }
+  #body{
+    max-width: 80%;
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 1.0em;
+  }
 }
-.container > div {
-  display: inline;
+@media (min-width:961px) {
+  .container img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  #title{
+    margin-top: 30px;
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 3.4em;
+  }
+  #body{
+    color: #FFF;
+    font-family: 'Roboto Slab';
+    font-size: 1.3em;
+    max-width: 100%;
+    margin-top: 15px;
+  }
 }
-.container img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-#count{
-  font-size: 1.9em;
-  font-family: 'Source Sans Pro';
-  color: #F7CA3F;
-}
-#title{
-  font-size: 1.5em;
-  font-family: 'Source Sans Pro';
-  color: #FFF;
-}
-#sub_title{
-  margin-top: 30px;
-  color: #FFF;
-  font-family: 'Source Sans Pro';
-  font-size: 3.4em;
-}
-#body{
-  color: #FFF;
-  font-family: 'Source Sans Pro';
-  font-size: 1.3em;
+#logo{
+  margin-top: 50px;
+  max-width: 25%;
+  max-height: 25%;
 }
 #icons .fa {
     color:white;
@@ -38,7 +47,7 @@ html, body {
     transition:all 0.2s ease-in-out;
 }
 #icons .email:hover {
-    color:#6CADDE;
+    color:#F7CA3F;
     bottom:5px;
 }
 #icons .twitter:hover {
