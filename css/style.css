@@ -1,6 +1,6 @@
 @media (min-width:320px)  {
   .container img {
-    max-width: 75%;
+    max-width: 100%;
     vertical-align: middle;
   }
   #title{
@@ -35,30 +35,7 @@
     margin-top: 15px;
   }
 }
-#logo{
-  margin-top: 50px;
-  max-width: 25%;
-  max-height: 25%;
-}
-#icons .fa {
-    color:white;
-    margin:15px;
-    position:relative;
-    transition:all 0.2s ease-in-out;
-}
-#icons .email:hover {
-    color:#F7CA3F;
-    bottom:5px;
-}
-#icons .twitter:hover {
-    color:#6CADDE;
-    bottom:5px;
-}
-#icons .facebook:hover {
-    color:#3B5998;
-    bottom:5px;
-}
-#icons .instagram:hover {
-    color:#517FA6;
-    bottom:5px;
+#screenshot{
+  max-width: 100%;
+  height: auto;
 }

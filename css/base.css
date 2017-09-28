@@ -1,7 +1,13 @@
 html, body {
     background: #242424 center center no-repeat;
-    height: 100%;
     background-size:cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+  margin-top: 50px;
+  max-width: 25%;
+  max-height: 25%;
 }
 
 /* smartphones */
@@ -14,19 +20,27 @@ html, body {
     display: block;
   }
   .sidebar-nav .navbar li {
-    margin-top: 30px;
     float: none;
     display: block;
   }
   .sidebar-nav .navbar li a {
     color: #FFF;
     font-family: 'Source Sans Pro';
-    font-size: 1.3em;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  .sidebar-nav .navbar li a:hover {
+    color: #F7CA3F;
+    font-weight: bolder;
   }
 }
 
 /* laptop/desktop */
 @media (min-width:961px) {
+  #logo {
+    margin-left: 16px
+  }
   .sidebar-nav .navbar .navbar-collapse {
     max-height: none;
   }
@@ -44,8 +58,32 @@ html, body {
     font-family: 'Source Sans Pro';
     font-size: 1.3em;
     text-decoration: none;
+    font-weight: lighter;
   }
   .sidebar-nav .navbar li a:hover {
     color: #F7CA3F;
+    font-weight: bolder;
   }
+}
+#icons .fa {
+    color:white;
+    margin:15px;
+    position:relative;
+    transition:all 0.2s ease-in-out;
+}
+#icons .email:hover {
+    color:#F7CA3F;
+    bottom:5px;
+}
+#icons .twitter:hover {
+    color:#6CADDE;
+    bottom:5px;
+}
+#icons .facebook:hover {
+    color:#3B5998;
+    bottom:5px;
+}
+#icons .instagram:hover {
+    color:#517FA6;
+    bottom:5px;
 }
