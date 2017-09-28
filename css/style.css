@@ -1,33 +1,46 @@
-html, body {
-    background: #242424 center center no-repeat;
-    height: 100%;
-    background-size:cover;
-}
-.container .intro {
-  text-transform:uppercase;
-  white-space:nowrap;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  -webkit-transform:translate(-50%,-50%);
-  display:inline-block;
-}
-#ComingSoon{
-  font-weight:300;
-  font-size:4.2vw;
-  color:#F7CA3F;
-}
-#icons .fa {
+@media (min-width:320px)  {
+  .container img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  #title{
     color: #FFF;
-    margin:15px;
+    font-family: 'Source Sans Pro';
+    font-size: 2.7em;
+  }
+  #body{
+    max-width: 80%;
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 1.0em;
+    font-weight: lighter;
+  }
 }
-#icons .twitter:hover {
-    color:#6CADDE;
+@media (min-width:961px) {
+  .container img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  #title{
+    margin-top: 30px;
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 3.4em;
+    font-weight: bolder;
+  }
+  #body{
+    color: #FFF;
+    font-family: 'Roboto Slab';
+    font-size: 1.3em;
+    max-width: 100%;
+    margin-top: 15px;
+    font-weight: lighter;
+  }
 }
-#icons .facebook:hover {
-    color:#3B5998;
+#screenshot{
+  max-width: 100%;
+  height: auto;
 }
-#icons .instagram:hover {
-    color:#517fA6;
+#body {
+  line-height: 32px;
 }

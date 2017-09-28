@@ -30,14 +30,17 @@ html, body {
   font-size: 1.0em;
   color: #FFF;
   font-family: 'Roboto Slab';
+  font-weight: lighter;
 }
 #email {
   font-size: 1.0em;
   color: #242424;
   font-family: 'Roboto Slab';
+  font-weight: lighter;
 }
 li {
   font-size: 1.0em;
   color: #FFF;
   font-family: 'Roboto Slab';
+  font-weight: lighter;
 }

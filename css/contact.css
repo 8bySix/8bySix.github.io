@@ -1,0 +1,29 @@
+@media (min-width:320px)  {
+  #content h1 {
+    margin-bottom: 32px;
+  }
+  #content p{
+    max-width: 80%;
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 1.0em;
+    font-weight: lighter;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}
+@media (min-width:961px) {
+  #content h1 {
+    margin-bottom: 32px;
+  }
+  #content p{
+    color: #FFF;
+    font-family: 'Roboto Slab';
+    font-size: 1.3em;
+    max-width: 100%;
+    margin-top: 15px;
+    font-weight: lighter;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}
