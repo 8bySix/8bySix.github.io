@@ -14,15 +14,28 @@
   <link rel=”stylesheet” href=”font-awesome/css/font-awesome.css”>
   <link rel="shortcut icon" type=image/png href=img/ic_logo@1x.png>
 
+  <head>
+    <script>
+      function hideNav() {
+        var x = document.getElementById('sidenav');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+      }
+    </script>
+  </head>
+
   <div class="container">
     <div class="row">
 
-      <div class="col-sm-3">
-        <div class="embed-responsive embed-responsive-1by1" id="logo">
+      <div class="col-lg-3 col-xs-12">
+        <div class="embed-responsive embed-responsive-1by1" id="logo" onclick="hideNav()">
           <img class="embed-responsive-item" src="img/ic_logo.svg"></img>
         </div>
 
-        <div class="sidebar-nav ml-3">
+        <div class="sidebar-nav" id="sidenav">
           <div class="navbar navbar-default" role="navigation">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
@@ -35,13 +48,13 @@
       </div>
 
       <div class="col-sm-9">
-        <div class="col-sm-9" align="center">
+        <div class="col-sm-9" align="center" id="content">
           <h1 id="title">Know Your Repealers</h1>
           <p id="body">Eight is a platform to have your say on the Repealing the 8th Amendment</p>
           <div class="row mt-5">
             <div class="col-md-6 col-6">
-              <a href="https://itunes.apple.com/us/app/repeal-the-8th/id1279274929?ls=1&mt=8">
-              <img class="embed-responsive-item" src="img/android.png" id="screenshot"></img>
+              <a href="https://itunes.apple.com/ie/app/eight-app/id1279274929?ls=1&mt=8">
+              <img class="embed-responsive-item" src="img/ios.png" id="screenshot"></img>
               <div class="row-6 mt-3"><img src="img/apple_badge.svg"></div>
             </div>
             <div class="col-md-6 col-6">

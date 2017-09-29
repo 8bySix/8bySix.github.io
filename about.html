@@ -13,15 +13,28 @@
   <link rel=”stylesheet” href=”font-awesome/css/font-awesome.css”>
   <link rel="icon" type="image/svg+xml" href="img/ic_logo.svg">
   <body>
+    <head>
+      <script>
+        function hideNav() {
+          var x = document.getElementById('sidenav');
+          if (x.style.display === 'none') {
+              x.style.display = 'block';
+          } else {
+              x.style.display = 'none';
+          }
+        }
+      </script>
+    </head>
+
     <div class="container">
       <div class="row">
 
-        <div class="col-sm-3">
-          <div class="embed-responsive embed-responsive-1by1" id="logo">
+        <div class="col-lg-3 col-xs-12">
+          <div class="embed-responsive embed-responsive-1by1" id="logo" onclick="hideNav()">
             <img class="embed-responsive-item" src="img/ic_logo.svg"></img>
           </div>
 
-          <div class="sidebar-nav ml-3">
+          <div class="sidebar-nav" id="sidenav">
             <div class="navbar navbar-default" role="navigation">
                 <ul class="nav navbar-nav">
                   <li><a href="index.html">Home</a></li>
@@ -32,6 +45,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-sm-9 mb-5">
     			<div class="ml-5 mr-5 mt-5" align="center">
             <div class="embed-responsive embed-responsive-16by9">
